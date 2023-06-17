@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@400;500;600;700;800&family=Roboto:wght@400;700&display=swap');
+@import "/src/utils/colors.css";
+.data__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em 0;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: var(--darker);
+    color: var(--white);
+}
+
+.data__box:hover {
+     background-color: var(--darker);
+     border: 1px solid var(--gold);
+ }
+
+.data__item {
+    text-align: center;
+     margin: 1em 0;
+    width: 33%;
+}
+
+.data__item-name {
+    font-size: 1rem;
+    width: 33%;
+}
+
+.value{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--gold);
+}
+
+.value-second{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--gold);
+}
+
+

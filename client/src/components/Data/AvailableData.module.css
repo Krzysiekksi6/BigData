@@ -1,0 +1,60 @@
+@import "/src/utils/colors.css";
+.data {
+    padding: 1em;
+    background-color: var(--dark);
+}
+
+
+/*.available-data {
+    max-width: 60rem;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: none;
+    padding: 6em 2em;
+    animation: cars-appear 1s ease-out forwards;
+
+}
+
+.available-data ul {
+    display: block;
+    list-style: none;
+    padding: 6em 2em;
+    border-radius: 10px;
+}*/
+
+.http-error {
+    text-align: center;
+    color: #FF6347FF;
+}
+
+/*@media (min-width: 768px) {
+    .available-data {
+        max-width: 90rem;
+    }
+    .available-data ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 992px) {
+    .available-data {
+        width: 95%;
+        max-width: 110rem;
+    }
+}*/
+
+@keyframes cars-appear {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
